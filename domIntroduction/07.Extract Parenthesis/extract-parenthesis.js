@@ -7,5 +7,5 @@ function extract(content) {
 
     const matches = text.match(regExPattern);
 
-    console.log(matches.map(match => match.slice(1, -1)).join('; '));
+    return matches.map(match => match.slice(1, -1)).join('; ');
 }
